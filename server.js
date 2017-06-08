@@ -34,7 +34,7 @@ app.use('/hello', (req, res, next) => {
 // first route is '/' - root of my website
 app.use('/', (req, res, next) => {
   res.setHeader('Content-Type', 'text/plain');
-  res.end("Welcome!");
+  res.end("This is fortek API sample Run");
 
   //next();
 });
