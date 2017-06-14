@@ -26,7 +26,7 @@ console.log(`Server started at http://localhost:${port}`);
 // second route is '/hello'
 app.use('/hello', (req, res, next) => {
   res.setHeader('Content-Type', 'text/plain');
-  res.end("Hello, World!");
+  res.end("Hello, This is again a fortek API sample Run 2!");
 
   next();
 });
